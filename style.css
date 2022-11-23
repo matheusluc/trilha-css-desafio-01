@@ -46,11 +46,7 @@
     
 
     
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+ 
 }
 
 .banner-content p{
@@ -73,12 +69,15 @@ button{
     text-transform: uppercase;
     border-color: #31A8DD;
     background: rgba(0, 0, 0, 0.0);
+    padding: 10px;
+    border-radius: 8px;
     /* identical to box height */
 
     text-align: center;
     letter-spacing: 0.21em;
 
     color: #31A8DD;
+    cursor: pointer;
 }
 
 main{
@@ -100,8 +99,7 @@ section{
     text-align: center;
 }
 h2{
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
+    
     font-weight: bold;
     font-size: 2rem;
     text-transform: uppercase;
@@ -111,13 +109,6 @@ h2{
 
     color: #33A8DB;
 
-
-/* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    
 }
 .course-content p{
     font-weight: 400;
@@ -153,5 +144,67 @@ h2{
 }
 
 #transform-world {
-    background: url(assets/images/woman-code.png);
+    position: static;
+    width: 100vw;
+    height: 300px;
+    left: 0px;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 1px;
+}
+#transform-world p{
+    width: 244px;
+    height: 141px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    margin-left: 80px;
+    padding-top: 75px;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+}
+section{
+    margin: 100px auto;
+    display: block;
+}
+#professional-challenges{
+    width: 800px;
+    text-align: center;
+}
+#professional-challenges img{
+    margin: 32px 0;
+}
+#professional-challenges h2{
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    
+}
+#professional-challenges p{
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer{
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+    display: block;
+    background-color: black;
+}
+body{
+    background-color: black;
 }
